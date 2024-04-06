@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body {
+    background-image: url("./Recursos/Fondo.jpg");
+    background-position: 50% -60px;
+    background-size: cover;
+    background-repeat: repeat;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    padding-top: 100;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.avatar-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 30px #ffffff;
+}
+
+.Tech-Synergy {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    max-width: 400px;
+}
+
+.buttons-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+.button-item {
+    color: #131212;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    border: 0px;
+    background-color: white;
+    font-weight: 600;
+    -webkit-box-shadow: 5px 5px 22px 4px rgba(214, 214, 214, 1);
+    -moz-box-shadow: 5px 5px 22px 4px rgba(214, 214, 214, 1);
+    box-shadow: 6px 6px 15px 1px #131313;
+    ;
+    display: grid;
+}
+
+.icon-container {
+    background-color: #01003B;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.icon-in {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+
+}
+
+
+.icon,
+.icon-gm,
+.icon-in {
+    filter: brightness(0) invert(1);
+}
